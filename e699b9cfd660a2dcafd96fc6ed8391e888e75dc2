@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///0Q\u003d",
+        "filename": "d2-common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-05-01T19:30:52Z",
+      "side": 1,
+      "message": "Should this be gps.d2?\nChanged it to that and it\u0027s compiling now for me...\nJust speculating... :)",
+      "revId": "e699b9cfd660a2dcafd96fc6ed8391e888e75dc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///0I\u003d",
+        "filename": "d2-common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-05-01T19:30:52Z",
+      "side": 1,
+      "message": "Should this be device/samsung/d2-common/gps/gps.conf?\n\nIt kept telling me that there\u0027s nothing in msm8960-common referring to gps when trying to build.... changed it to d2-common and what not and it\u0027s compiling fine as well...",
+      "revId": "e699b9cfd660a2dcafd96fc6ed8391e888e75dc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
