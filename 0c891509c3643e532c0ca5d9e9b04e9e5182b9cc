@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iLz57U8",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 7
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 5589
+      },
+      "writtenOn": "2013-06-16T21:33:30Z",
+      "side": 1,
+      "message": "Duplicated in init.target.rc",
+      "revId": "0c891509c3643e532c0ca5d9e9b04e9e5182b9cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "iJyVCeY",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 7
+      },
+      "lineNbr": 345,
+      "author": {
+        "id": 5589
+      },
+      "writtenOn": "2013-06-16T21:33:30Z",
+      "side": 1,
+      "message": "unnecessary, we don\u0027t use sensors.qcom either",
+      "revId": "0c891509c3643e532c0ca5d9e9b04e9e5182b9cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
