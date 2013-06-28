@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_4881078f",
+        "filename": "d2-common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2013-06-28T21:23:11Z",
+      "side": 1,
+      "message": "this is device spefic, move it to your tree",
+      "revId": "8f39b0fe111c579b487ab9e2df5068468ebc7ebc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
