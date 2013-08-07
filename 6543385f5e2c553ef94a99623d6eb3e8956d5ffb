@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fae47921_3b03cbba",
+        "filename": "overlay/packages/apps/Focal/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2013-08-07T14:50:58Z",
+      "side": 1,
+      "message": "still a stock setting, should be removed\n\nmake your change\n\ngit add .\n\ngit commit --amend\n\nrepo upload\n\n^this will submit a patch to the same commit, \"Patch Set 2\"",
+      "revId": "6543385f5e2c553ef94a99623d6eb3e8956d5ffb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
