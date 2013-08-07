@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fae47921_9b451719",
+        "filename": "overlay/packages/apps/Focal/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2013-08-07T14:25:17Z",
+      "side": 1,
+      "message": "stock setting, remove",
+      "revId": "d9a1aaa9cac84f531390db338cae648c6b57e475",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_7b4b932c",
+        "filename": "overlay/packages/apps/Focal/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2013-08-07T14:25:17Z",
+      "side": 1,
+      "message": "stock setting, remove",
+      "revId": "d9a1aaa9cac84f531390db338cae648c6b57e475",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_5b48cf2d",
+        "filename": "overlay/packages/apps/Focal/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2013-08-07T14:25:17Z",
+      "side": 1,
+      "message": "stock setting, remove",
+      "revId": "d9a1aaa9cac84f531390db338cae648c6b57e475",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_3b550bc6",
+        "filename": "overlay/packages/apps/Focal/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2013-08-07T14:25:17Z",
+      "side": 1,
+      "message": "stock setting, remove",
+      "revId": "d9a1aaa9cac84f531390db338cae648c6b57e475",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_1b5247de",
+        "filename": "overlay/packages/apps/Focal/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2013-08-07T14:25:17Z",
+      "side": 1,
+      "message": "stock setting, remove",
+      "revId": "d9a1aaa9cac84f531390db338cae648c6b57e475",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_fb5d43ed",
+        "filename": "overlay/packages/apps/Focal/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2013-08-07T14:25:17Z",
+      "side": 1,
+      "message": "stock setting, remove",
+      "revId": "d9a1aaa9cac84f531390db338cae648c6b57e475",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_db627fad",
+        "filename": "overlay/packages/apps/Focal/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2013-08-07T14:25:17Z",
+      "side": 1,
+      "message": "stock setting, remove",
+      "revId": "d9a1aaa9cac84f531390db338cae648c6b57e475",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
