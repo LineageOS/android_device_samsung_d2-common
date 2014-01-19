@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_8b5fd60d",
+        "filename": "d2-common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-01-19T20:31:45Z",
+      "side": 1,
+      "message": "You also need\n    linville.key.pub.pem \\\n    regdbdump \\\n    regulatory.bin \\",
+      "revId": "c21c5fc17e48bd99606a5d11464568942d9654f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
