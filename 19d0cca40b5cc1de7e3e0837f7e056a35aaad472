@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fade3982_574bae2b",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 464,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-02-03T14:41:48Z",
+      "side": 1,
+      "message": "wondering if we need a bnep0 also",
+      "revId": "19d0cca40b5cc1de7e3e0837f7e056a35aaad472",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
