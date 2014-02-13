@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fade3982_bf55a5c7",
+        "filename": "d2-common.mk",
+        "patchSetId": 22
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7003
+      },
+      "writtenOn": "2014-02-13T08:25:09Z",
+      "side": 1,
+      "message": "This is a syntax error, right?",
+      "revId": "a4aa9b295eb09cd4e0b348ce4edad5c1f28e7bda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
