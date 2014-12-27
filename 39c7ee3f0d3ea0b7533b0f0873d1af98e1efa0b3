@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_fb4b9fae",
+        "filename": "ril/telephony/java/com/android/internal/telephony/d2lteRIL.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2014-12-27T08:34:16Z",
+      "side": 1,
+      "message": "move newril here",
+      "revId": "39c7ee3f0d3ea0b7533b0f0873d1af98e1efa0b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
