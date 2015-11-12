@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_819bc070",
+        "filename": "ril/telephony/java/com/android/internal/telephony/d2lteRIL.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 12095
+      },
+      "writtenOn": "2015-11-12T14:58:58Z",
+      "side": 1,
+      "message": "instance ID? This commit conflicts with \nhttp://review.cyanogenmod.org/119316\n\nBoth of these commits are updating the same line. I am not sure which one is correct.. 119315 updates the last parameter of the function while the other commit 119316 does the same",
+      "range": {
+        "startLine": 62,
+        "startChar": 54,
+        "endLine": 62,
+        "endChar": 58
+      },
+      "revId": "c96abb701c2be644672b4b9f9713cf03544bf3e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
