@@ -32,6 +32,7 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
 # Kernel
 TARGET_KERNEL_CONFIG        := lineageos_d2_defconfig
+LZMA_RAMDISK_TARGETS        := recovery
 
 # Audio
 BOARD_HAVE_AUDIENCE_A2220 := true
