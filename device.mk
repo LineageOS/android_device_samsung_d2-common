@@ -115,3 +115,8 @@ $(call inherit-product, device/samsung/d2-common/system_prop.mk)
 
 # common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
+
+# TWRP
+ifeq ($(WITH_TWRP),true)
+-include $(LOCAL_PATH)/twrp.mk
+endif
