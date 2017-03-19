@@ -75,8 +75,8 @@ static int pn544_close(hw_device_t *dev) {
 /*
  * Generic device handling
  */
-static int nfc_open(const hw_module_t* module, const char* name,
-        hw_device_t** device) {
+static int nfc_open(const hw_module_t *module, const char *name,
+        hw_device_t **device) {
     if (strcmp(name, NFC_PN544_CONTROLLER) == 0) {
         nfc_pn544_device_t *dev = calloc(1, sizeof(nfc_pn544_device_t));
 
