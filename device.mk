@@ -97,6 +97,10 @@ endif
 PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
 
+# NFC HCE Feature
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
+
 # SPN override
 PRODUCT_COPY_FILES += \
     device/samsung/d2-common/selective-spn-conf.xml:system/etc/selective-spn-conf.xml
