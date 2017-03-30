@@ -108,6 +108,12 @@ lib/libmlplatform.so
 lib/libmplmpu.so
 lib/libyamaha.so
 
+# Time services
+-app/TimeService/TimeService.apk|971f22f85378d8161bf0e48bc6a4fe8be229d6f7
+bin/time_daemon
+lib/libTimeService.so
+-lib/libtime_genoff.so
+
 # Wi-Fi
 etc/wifi/bcmdhd_apsta.bin_b2
 etc/wifi/bcmdhd_p2p.bin_b2

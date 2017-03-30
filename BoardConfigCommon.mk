@@ -67,6 +67,9 @@ TARGET_RECOVERY_DENSITY := hdpi
 # RIL
 BOARD_RIL_CLASS := ../../../device/samsung/d2-common/ril
 
+# Time services
+BOARD_USES_QC_TIME_SERVICES := true
+
 # Wifi
 BOARD_WLAN_DEVICE := bcmdhd
 BOARD_HAVE_SAMSUNG_WIFI := true
