@@ -58,6 +58,27 @@ public class d2lteRIL extends RIL implements CommandsInterface {
         mAudioManager = (AudioManager)mContext.getSystemService(Context.AUDIO_SERVICE);
     }
 
+    private void
+    handleNitzTimeReceived(Parcel p) {
+        String responseVoid = (String) responseString(p);
+        long nitzReceiveTime = p.readLong();
+
+        Object result[] = {responseVoid, Long.valueOf(nitzReceiveTime)};
+
+        /* While TelephonyProperties.PROPERTY_IGNORE_NITZ = "telephony.test.ignore.nitz",
+           the actual name of the property is much shorter, so just use that */
+        if (SystemProperties.getBoolean("telephony.test.ignore.nitz", false)) {
+            if (RILJ_LOGD) riljLog("ignoring UNSOL_NITZ_TIME_RECEIVED");
+            return;
+        }
+
+        if (mNITZTimeRegistrant != null) {
+            mNITZTimeRegistrant.notifyRegistrant(new AsyncResult(null, result, null));
+        }
+
+        mLastNITZTimeInfo = result;
+    }
+
     @Override
     protected Object
     responseIccCardStatus(Parcel p) {
@@ -256,6 +277,9 @@ public class d2lteRIL extends RIL implements CommandsInterface {
                 if(mRilVersion >= 8)
                     setCellInfoListRate(Integer.MAX_VALUE, null);
                 notifyRegistrantsRilConnectionChanged(((int[])ret)[0]);
+                break;
+            case RIL_UNSOL_NITZ_TIME_RECEIVED:
+                handleNitzTimeReceived(p);
                 break;
             // SAMSUNG STATES
             case 11010: // RIL_UNSOL_AM:
